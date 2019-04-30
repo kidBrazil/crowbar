@@ -6,17 +6,17 @@ This SASS boilerplate is to be used as a starting point for Moreira Development 
 
 1. First install the package using NPM after requesting access to the company NPM registry
 ```
-npm install @moreira-development/mdev-sass-boilerplate
+npm install @moreira-development/crowbar-sass
 ```
 
 2. Import the library into your .js pipeline
 ```
-import '@moreira-development/mdev-sass-boilerplate`
+import '@moreira-development/crowbar-sass`
 ```
 
 or
 
 2. Import it to the main Stylesheet with
 ```
-@import "~@moreira-development/sass-boilerplate";
+@import "~@moreira-development/crowbar-sass";
 ```
