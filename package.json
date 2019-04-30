@@ -1,6 +1,6 @@
 {
   "name": "@moreira-development/crowbar-sass",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "SASS Boilerplate for kicking off Projects",
   "main": "/styles/global-main.scss",
   "scripts": {
