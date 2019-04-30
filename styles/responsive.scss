@@ -3,6 +3,7 @@
 /-------------------------------------*/
 
 /* Breakpoint Definitions */
+$tiny-range: (0, 320px);
 $phone-range:   (0, 640px);
 $tablet-range:  (641px, 1024px);
 $laptop-range:   (1025px, 1440px);
@@ -33,6 +34,7 @@ $landscape:           "#{$screen} and (orientation: landscape)" !default;
 $portrait:            "#{$screen} and (orientation: portrait)" !default;
 /* Phone Sizes */
 $phone-up:            $screen !default;
+$phone-tiny:          "#{$screen} and (max-width: #{upper-bound($tiny-range)})" !default;
 $phone-only:          "#{$screen} and (max-width: #{upper-bound($phone-range)})" !default;
 /* Tablet Sizes */
 $tablet-up:           "#{$screen} and (min-width:#{lower-bound($tablet-range)})" !default;

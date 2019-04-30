@@ -7,8 +7,7 @@
     "lintcss": "stylelint '**/*.scss' --syntax scss",
     "prod": "webpack --config webpack.prod.js",
     "clean": "rm -r dist/",
-    "build": "npm run lintcss && npm run prod",
-    "clean": "rm -r dist/"
+    "build": "webpack -p --progress --hide-modules"
   },
   "repository": {
     "type": "git",
@@ -33,19 +32,15 @@
     "@babel/plugin-transform-parameters": "^7.4.3",
     "@babel/polyfill": "^7.4.3",
     "@babel/preset-env": "^7.0.0",
-    "autoprefixer": "^8.5.0",
+    "autoprefixer": "^8.6.5",
     "babel-loader": "v8.0.0-beta.0",
     "clean-webpack-plugin": "^0.1.19",
-    "cross-env": "^5.1.5",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-html": "^4.0.3",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.1",
@@ -58,6 +53,5 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.1.2"
-
   }
 }
