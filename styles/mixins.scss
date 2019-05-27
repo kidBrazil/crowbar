@@ -111,3 +111,20 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+// [ Truncate-lines CSS ] -------------------
+// Truncates to a specific number of lines.
+//
+// [ USAGE ] -------------------------
+// .some-class {
+//   @include truncate-lines(3);
+// }
+@mixin truncate-lines($lines) {
+  overflow: hidden;
+  /* Disabled due to necessary vendor prefix */
+  /* stylelint-disable */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  /* stylelint-enabled */
+}
