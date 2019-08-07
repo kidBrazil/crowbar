@@ -1,6 +1,6 @@
-![MDEV Digital](https://mdevcdn.digital/images/githublogo.svg)
+![CROWBAR SASS](https://mdevcdn.digital/images/crowbarlogo.svg)
 
-## MDev SASS Boilerplate
+## CROWBAR SASS Boilerplate
 
 This SASS boilerplate is to be used as a starting point for Moreira Development projects. The intention is for the library to grow as we start seeing repeated patterns and to save time on initial project setups
 
