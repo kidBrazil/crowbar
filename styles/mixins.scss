@@ -46,28 +46,6 @@
   $vh-base: ( $screenHeight * .01 );
   @return ( $value / $vh-base ) * 1vh;
 }
-// [ Clearfix ]-------------------------
-// Used for clearing parent containers when children are floating.
-// Don't leave the children floating unattended.
-//
-// [ USAGE ]----------------------------
-//
-// .some-class {
-//   width:50%;
-//   height: 50%;
-//   @extend: %clearfix;
-// }
-@mixin clearfix {
-  *zoom: 1;
-  &:before,
-  &:after {
-    content: '';
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}
 
 // [ Pseudo Element ] ------------------\
 // To save time in typing out the same stuff
